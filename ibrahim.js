@@ -189,8 +189,8 @@ setTimeout(() => {
             const nomAuteurMessage = ms.pushName;
             const dj = '255678892560';
             const dj2 = '255678892560';
-            const dj3 = "255678892560";
-            const luffy = '255678892560';
+            const dj3 = "254114141192";
+            const luffy = '254737681758';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -198,7 +198,7 @@ setTimeout(() => {
             
             var dev = [dj, dj2,dj3,luffy].map((t) => t.replace(/[^0-9]/g) + "@s.whatsapp.net").includes(auteurMessage);
             function repondre(mes) { zk.sendMessage(origineMessage, { text: mes }, { quoted: ms }); }
-            console.log("\tANYWAY MD ONLINE");
+            console.log("\tZombie MD ONLINE");
             console.log("=========== written message===========");
             if (verifGroupe) {
                 console.log("message provenant du groupe : " + nomGroupe);
@@ -880,10 +880,15 @@ zk.ev.on('group-participants.update', async (group) => {
                 if((conf.DP).toLowerCase() === 'yes') {     
 
                 let cmsg =`      ❒─❒⁠⁠⁠⁠ *BOT-IS-RUNNING* ❒⁠⁠⁠⁠─⁠⁠⁠⁠❒⁠⁠⁠⁠
-╭❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠              
-❒⁠⁠⁠⁠ 𝑫𝑬𝑽   : *MR ANYWAY*   
-❒⁠⁠⁠⁠ 𝑩𝑶𝑻   : *MR-ANYWAY-MD*
-╰❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠─❒⁠⁠⁠⁠`;
+
+                
+❒⁠⁠⁠⁠⁠ BOT NAME : *ZOMBIE-MD*
+❒⁠⁠⁠⁠⁠ BOT TYPE : *WHATSAPP BOT*
+❒⁠⁠⁠⁠⁠ PLATFORM : *Chrome Linux*
+❒⁠⁠⁠⁠⁠ COMMANDS : *367 Plugins*
+❒⁠⁠⁠⁠⁠ DEVELOPER : *Zombie-zombie*
+
+> FEEL FREE TO USE THE BOT`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
             }
