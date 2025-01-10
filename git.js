@@ -37,20 +37,20 @@ const date = moment().format('DD/MM/YYYY');
    *TOSH MD IMPORTANT INFO* 
 ❒───────────────────❒
 *GITHUB LINK*
-> https://github.com/SIMON32883/MR-ANYWAY-MD
+> https://github.com/Gaga185/
 
 *WHATSAPP GROUP*
-> https://whatsapp.com/channel/0029Vail87sIyPtQoZ2egl1h
+> https://whatsapp.com/channel/0029Vail87sIyPtQ
 ⁠
 ╭───────────────────❒
 │❒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-│❒⁠⁠⁠⁠ *DEV1* : *Mr anyway*
-│❒⁠⁠⁠⁠ *DEV2* : *Baraka Bega*
+│❒⁠⁠⁠⁠ *DEV1* : *Rich gaga midush*
+│❒⁠⁠⁠⁠ *DEV2* : *Beltah tech 254*
 ⁠⁠⁠⁠╰───────────────────❒
   `;
     
 let menuMsg = `
-     *Anyway Tech*
+     *Regars to Zombie*
 
 ❒────────────────────❒`;
 
