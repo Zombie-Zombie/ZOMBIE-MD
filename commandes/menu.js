@@ -67,10 +67,10 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 
 ╔═━━━━════───➳
-┃ ━━✫*XGAGA* ✫━━
+┃ ━━✫*ZOMBIE MD*✫━━
 ┃ ¶Mode : ${mode}
 ┃ ¶User : ${s.OWNER_NAME}
-┃ ¶Library : Baileys
+┃ ¶Developer : Zombie
 ┃ ¶Prefix : ${s.PREFIXE}
 ┃ ¶Date : ${date}
 ┃ ¶Time : ${temps}
@@ -85,7 +85,7 @@ const date = moment().format('DD/MM/YYYY');
 
 let menuMsg = `
 ┏━━━━══════━━━┓
-┃¶XGAGA BOT 👺
+┃¶ZOMBIE BOT 👺
 ┗━━━━═══════━━┛\n
 
 
@@ -115,7 +115,7 @@ let menuMsg = `
 
 
  ╭──═════━━━━━━━━┓
- ┃® GAGA BOT
+ ┃® ZOMBIE BOT
  ╰──━━══━━━━━━━━━┛
  ╭──━━━━━━━━━━━━━┓
  ┃Stay connected with  🔥
