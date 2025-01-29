@@ -1,3 +1,6 @@
+
+
+
 const { zokou } = require('../framework/zokou');
 const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
 const moment = require("moment-timezone");
@@ -43,7 +46,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *ANYWAY-MD-WABOT*`
+ *𝚭𝚯𝚳𝚩𝚰𝚵-𝚳𝐃-WABOT*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -71,10 +74,10 @@ else {
 }
 
     } else {
-        if(!superUser) { repondre("there is no alive for this bot") ; return};
+        if(!superUser) { repondre("𝚭𝚯𝚳𝚩𝚰𝚵-𝚳𝐃 IS ALIVE ALWAYS") ; return};
 
-      await   repondre("You have not yet saved your alive, to do this;  enter after alive your message and your image or video link in this context: .alive message;lien");
-         repondre("don't do fake thinks :)")
+      await   repondre(".𝚭𝚯𝚳𝚩𝚰𝚵-𝚳𝐃 IS ONLINE 🌟");
+         repondre("JUST TYPE .menu:)")
      }
  } else {
 
@@ -88,7 +91,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *ANYWAY-MD BOT* is alive just like you gee. ')
+repondre(' Holla🥴, *𝚭𝚯𝚳𝚩𝚰𝚵-𝚳𝐃 MD BOT* is alive just like you gee. ')
 
 }
     });

@@ -1,4 +1,9 @@
 
+
+
+
+
+
 const {zokou } = require("../framework/zokou");
 const axios = require('axios');
 const cheerio = require('cheerio');
@@ -9,7 +14,7 @@ let hdb = require('../bdd/hentai') ;
 zokou({
   nomCom: "hwaifu",
   categorie: "Hentai",
-  reaction: "🍑"
+  reaction: "🤕"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms ,verifGroupe , superUser} = commandeOptions;
@@ -37,7 +42,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "trap",
   categorie: "Hentai",
-  reaction: "🍑"
+  reaction: "🤕"
 },
 async (origineMessage, zk, commandeOptions) => {
   
@@ -65,7 +70,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "hneko",
   categorie: "Hentai",
-  reaction: "🍑"
+  reaction: "🤕"
 },
 async (origineMessage, zk, commandeOptions) => {
   
@@ -93,7 +98,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "blowjob",
   categorie: "Hentai",
-  reaction: "🍑"
+  reaction: "🤕"
 },
 async (origineMessage, zk, commandeOptions) => {
   
@@ -122,7 +127,7 @@ async (origineMessage, zk, commandeOptions) => {
 zokou({
   nomCom: "hentaivid",
   categorie: "Hentai",
-  reaction: "🍑"
+  reaction: "🤕"
 },
 async (origineMessage, zk, commandeOptions) => {
   const { repondre, ms ,verifGroupe , superUser} = commandeOptions;

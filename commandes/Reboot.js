@@ -1,3 +1,8 @@
+
+
+
+
+
 const {zokou}=require("../framework/zokou")
 
 
@@ -19,7 +24,7 @@ const{repondre,ms,dev,superUser}=com;
 
   const {exec}=require("child_process")
 
-    repondre("ANYWAY-MD bot Restarting ⏳");
+    repondre("MR-B.M.B-MD bot Restarting 💱");
 
   exec("pm2 restart all");
   
